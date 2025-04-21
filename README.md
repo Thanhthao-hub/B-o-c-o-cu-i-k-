@@ -78,4 +78,60 @@ sv.to_excel("Danh_sach_sinh_vien.xlsx", index=False)
 print(' Đã tạo file Excel thành công!')
 ```
 ### 4.2 Khám phá dữ liệu
+-Với 2400 dòng dữ liệu, thông tin đa dạng nhưng còn thô, chưa sạch, thiếu thông tin
 ### 4.3 Xử lí dữ liệu
+-Đầu tiên ta chuẩn hóa kiểu dữ liệu cho Thành phố và Tên thành kiểu dữ liệu chuỗi.
+```python
+df['Thành phố'] = df['Thành phố'].astype(str).replace(["0", "nan"], np.nan)
+df['Tên'] = df['Tên'].astype(str).replace(["0", "nan"], np.nan)
+```
+-Chuẩn hóa các cột tiếp theo (SĐT, Tuổi, Email)
+```python
+df['Thành phố'] = df['Thành phố'].astype(str).replace(["0", "nan"], np.nan)
+df['Tên'] = df['Tên'].astype(str).replace(["0", "nan"], np.nan)
+```
+-Chuẩn hóa các cột khác
+```python
+df['Email'] = df['Email'].apply(lambda x: x if str(x).endswith("@gmail.com") else np.nan)
+df['SĐT'] = df['SĐT'].apply(lambda x: x if len(str(x)) == 10 and str(x).isdigit() else np.nan)
+df['Ghi chú'] = df['Ghi chú'].replace(1, np.nan)
+
+def clean_age(age):
+    try:
+        return int(age)
+    except:
+        return np.nan
+df['Tuổi'] = df['Tuổi'].apply(clean_age)
+
+df['Giới tính'] = df['Giới tính'].apply(
+    lambda x: "Nữ" if str(x).strip().lower() == "nữ" else
+              ("Nam" if str(x).strip().lower() == "nam" else np.nan)
+)
+
+df['Ngày đăng ký'] = pd.to_datetime(df['Ngày đăng ký'], errors='coerce').dt.strftime('%d/%m/%Y')
+```
+-Xử lí giá trị cột điểm TB cho phù hợp
+```python
+def clean_score(score):
+    try:
+        score = float(score)
+        # Kiểm tra giá trị nằm trong khoảng từ 0 đến 10
+        if 0 <= score <= 10:
+            return score
+        else:
+            return np.nan
+    except:
+        return np.nan
+
+df['Điểm TB'] = df['Điểm TB'].apply(clean_score)
+
+df['Học bổng'] = df['Học bổng'].replace({False: "Không", True: "Có"})
+```
+-Xóa cột dư khỏi DataFrame
+```python
+columns_to_drop = ['Cột dư']  # Tên cột bạn muốn xóa
+df = df.drop(columns=columns_to_drop, errors='ignore')
+```
+-
+
+-
