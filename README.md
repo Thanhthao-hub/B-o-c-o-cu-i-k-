@@ -285,9 +285,23 @@ print("3.2 b) Tuổi nhỏ nhất:", tuoi_nho_nhat)
 -Mô hình Random Forest
 ![Random Forest](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_15.png?raw=true)
 
+-Mô hình KNN
+![KNN](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_17.png?raw=true)
+
+-Mô hình SVM
+![SVM](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_27.png?raw=true)
+
+-So sánh 3 thuật toán: Random Forest, KNN, SVM
+![SVM](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_18.png?raw=true)
+
+![SVM](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_19.png?raw=true)
+
+![SVM](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_20.png?raw=true)
+
 -Phân cụm bằng KMeans
 ![Kmeans](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_16.png?raw=true)
 
--Mô hình KNN
-![KNN](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_17.png?raw=true)
+-Thuật toán Liner Regression
+![L G](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_21.png?raw=true)
+
 
