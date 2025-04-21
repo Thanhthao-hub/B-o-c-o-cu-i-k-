@@ -234,6 +234,12 @@ print("3.2 b) Tuổi nhỏ nhất:", tuoi_nho_nhat)
 ```
 ### 4.3 Xử lí imblance và Lưu dữ liệu vào database
 -Dữ liệu trước khi cân bằng
+![Trước khi imblance](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_12.png?raw=true)
+
+-Dữ liệu sau khi imblance bằng SMOTE và lưu vào database
+![Sau khi imblance và lưu vào database](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_13.png?raw=true)
+
+![Sau khi imblance và lưu vào database](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_14.png?raw=true)
 
 ### 4.4 Vẽ biểu đồ trực quan
 
@@ -258,6 +264,7 @@ print("3.2 b) Tuổi nhỏ nhất:", tuoi_nho_nhat)
 
 ![Biểu đồ (Heat map) tương quan giữa các cột số](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_11.png?raw=true)
 
+### 4.5 Lọc các dữ liệu
 
 
 
