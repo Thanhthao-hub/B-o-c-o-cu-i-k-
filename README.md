@@ -1,4 +1,4 @@
-# BÁO CÁO ĐỒ ÁN CUỐI KÌ 
+# _BÁO CÁO ĐỒ ÁN CUỐI KÌ
 
 ## Cấu trúc folder đồ án
 - `notebook/`: chứa Jupyter Notebook
@@ -19,4 +19,9 @@
 - Thịnh: Vẽ biểu đồ
 - Thảo: Tạo file excel thô, phân tích và máy học
 ## 3. Các bước thực hiện
-- 
+- Tạo file excel thô
+- Khám phá các dữ liệu có trong file
+- Xử lí dữ liệu
+- Phân tích dữ liệu
+- vẽ biểu đồ
+- Áp dụng thuật toán máy học
