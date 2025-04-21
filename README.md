@@ -265,6 +265,29 @@ print("3.2 b) Tuổi nhỏ nhất:", tuoi_nho_nhat)
 ![Biểu đồ (Heat map) tương quan giữa các cột số](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_11.png?raw=true)
 
 ### 4.5 Lọc các dữ liệu
+-Lọc cột "Ghi chú" Có học bổng và "Điểm TB" trên 9.0
+![Lọc có học bổng và điểm trên 9.0](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_22.png?raw=true)
 
+-Lọc 4 điều kiện: có học bổng + điểm TB trên 9.0 + ghi chú học tốt hoặc Hoàn thành xuất sắc
+![Lọc 4 điều kiện](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_23.png?raw=true)
 
+### 4.5 Phân tích tương quan giữa học lực dựa trên Điểm TB và việc đóng học phí
+
+![Phân tích tương quan](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_24.png?raw=true)
+
+### 4.6 Chuyển Điểm TB sang GPA
+![GPA](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_25.png?raw=true)
+
+### 4.7 Phân tích sự phân bố Học bổng theo: 0, 1
+![0, 1](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_26.png?raw=true)
+
+### 4.8 Thuật toán máy học
+-Mô hình Random Forest
+![Random Forest](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_15.png?raw=true)
+
+-Phân cụm bằng KMeans
+![Kmeans](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_16.png?raw=true)
+
+-Mô hình KNN
+![KNN](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_17.png?raw=true)
 
