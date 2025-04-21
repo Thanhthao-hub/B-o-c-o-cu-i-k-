@@ -233,22 +233,9 @@ tuoi_nho_nhat = df['Tuổi'].min()
 print("3.2 b) Tuổi nhỏ nhất:", tuoi_nho_nhat)
 
 -Vẽ biểu đồ trực quan
+![Biểu đồ cột sinh viên theo chuyên ngành](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_2.png?raw=true)
 
-# Biểu đồ cột số lượng sinh viên theo chuyên ngành
-sv_moi_chuyen_nganh.plot(kind='bar', color='skyblue', title='Số lượng sinh viên mỗi chuyên ngành')
-plt.xlabel("Chuyên ngành")
-plt.ylabel("Số lượng sinh viên")
-plt.xticks(rotation=45)
-plt.tight_layout()
-plt.show()
+![Biểu đồ tròn tỉ lệ sinh viên có học bổng](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_3.png?raw=true)
 
-# Biểu đồ tròn tỉ lệ sinh viên có học bổng
-labels = ['Có học bổng', 'Không có học bổng']
-sizes = [(df['Học bổng'] == 'Có').sum(), (df['Học bổng'] == 'Không').sum()]
-colors = ['#4CAF50', '#FF7043']
-plt.pie(sizes, labels=labels, autopct='%1.1f%%', colors=colors, startangle=140)
-plt.axis('equal')
-plt.title("Tỉ lệ sinh viên có học bổng")
-plt.show()
+-Vẽ các biểu đồ
 
--Vẽ biểu đồ
