@@ -233,10 +233,12 @@ tuoi_nho_nhat = df['Tuổi'].min()
 print("3.2 b) Tuổi nhỏ nhất:", tuoi_nho_nhat)
 ```
 ### 4.3 Xử lí imblance và Lưu dữ liệu vào database
--Dữ liệu trước khi cân bằng
+### Sau khi khám phá, xử lí dữ liệu cho chuẩn và phân tích tổng quan, ta thấy số sinh viên "Có học bổng" ít hơn nhiều so với "Không học bổng" -> Mô hình bị lệch
+--Dữ liệu trước khi cân bằng
 
 ![Trước khi imblance](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_12.png?raw=true)
 
+### Sử dụng kĩ thuật Oversampling bằng SMOTE từ thư viện imblearn nhằm: tăng dữ liệu "Có học bổng", cân bằng
 -Dữ liệu sau khi imblance bằng SMOTE và lưu vào database
 
 ![Sau khi imblance và lưu vào database](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_13.png?raw=true)
@@ -290,6 +292,7 @@ print("3.2 b) Tuổi nhỏ nhất:", tuoi_nho_nhat)
 
 ### 4.8 Thuật toán máy học
 -Mô hình Random Forest
+### Dùng thuật toán Random Forest để huấn luyện mô hình phân loại sinh viên đạt học bổng (label)
 
 ![Random Forest](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_15.png?raw=true)
 
