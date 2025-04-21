@@ -237,6 +237,7 @@ print("3.2 b) Tuổi nhỏ nhất:", tuoi_nho_nhat)
 ![Trước khi imblance](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_12.png?raw=true)
 
 -Dữ liệu sau khi imblance bằng SMOTE và lưu vào database
+
 ![Sau khi imblance và lưu vào database](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_13.png?raw=true)
 
 ![Sau khi imblance và lưu vào database](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_14.png?raw=true)
@@ -292,6 +293,7 @@ print("3.2 b) Tuổi nhỏ nhất:", tuoi_nho_nhat)
 ![SVM](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_27.png?raw=true)
 
 -So sánh 3 thuật toán: Random Forest, KNN, SVM
+
 ![SVM](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_18.png?raw=true)
 
 ![SVM](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_19.png?raw=true)
