@@ -204,7 +204,7 @@ df.to_excel("File_Hoan_Chinh.xlsx", index=False)
 ```
 ### 4.4 Phân tích tổng quan
 -Phân tích theo thống kê tổng quan
-
+```python
 # a) Số lượng sinh viên
 so_luong_sinh_vien = len(df)
 print("a) Số lượng sinh viên:", so_luong_sinh_vien)
@@ -221,9 +221,9 @@ print(f"\nc) Tỉ lệ sinh viên có học bổng: {ti_le_hoc_bong:.2f}%")
 # d) Số sinh viên chưa đóng học phí
 so_sv_chua_dong_hoc_phi = df['Ghi chú'].str.contains('Chưa đóng học phí', na=False).sum()
 print("d) Số sinh viên chưa đóng học phí:", so_sv_chua_dong_hoc_phi)
-
+```
 -Phân tích theo độ tuổi
-
+```python
 # a) Tuổi lớn nhất
 tuoi_lon_nhat = df['Tuổi'].max()
 print("\n3.2 a) Tuổi lớn nhất:", tuoi_lon_nhat)
@@ -231,11 +231,33 @@ print("\n3.2 a) Tuổi lớn nhất:", tuoi_lon_nhat)
 # b) Tuổi nhỏ nhất
 tuoi_nho_nhat = df['Tuổi'].min()
 print("3.2 b) Tuổi nhỏ nhất:", tuoi_nho_nhat)
+```
+### 4.3 Xử lí imblance và Lưu dữ liệu vào database
+-Dữ liệu trước khi cân bằng
 
--Vẽ biểu đồ trực quan
-![Biểu đồ cột sinh viên theo chuyên ngành](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_2.png?raw=true)
+### 4.4 Vẽ biểu đồ trực quan
 
-![Biểu đồ tròn tỉ lệ sinh viên có học bổng](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_3.png?raw=true)
+![Biểu đồ (cột) sinh viên theo chuyên ngành](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_2.png?raw=true)
+
+![Biểu đồ (tròn) tỉ lệ sinh viên có học bổng](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_3.png?raw=true)
 
 -Vẽ các biểu đồ
+![Biểu đồ (Histogram) phân bố điểm TB](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_4.png?raw=true)
+
+![Biểu đồ (Barplot) so sánh học bổng theo thành phố](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_5.png?raw=true)
+
+![Biểu đồ (Pie chart) tỉ lệ sinh viên theo giới tính](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_6.png?raw=true)
+
+![Biểu đồ (cột) số sinh viên có học bổng theo chuyên ngành](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_7.png?raw=true)
+
+![Biểu đồ (Ngang: Horizontal barplot) số lượng sinh viên theo thành phố](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_8.png?raw=true)
+
+![Biểu đồ (Line) số lượng sinh viên theo thời gian](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_9.png?raw=true)
+
+![Biểu đồ (Scatter) mối liên hệ giữa tuổi và điểm TB](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_10.png?raw=true)
+
+![Biểu đồ (Heat map) tương quan giữa các cột số](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_11.png?raw=true)
+
+
+
 
