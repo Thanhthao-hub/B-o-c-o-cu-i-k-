@@ -279,8 +279,11 @@ print("3.2 b) Tuổi nhỏ nhất:", tuoi_nho_nhat)
 ![Lọc 4 điều kiện](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_23.png?raw=true)
 
 ### 4.5 Phân tích tương quan giữa học lực dựa trên Điểm TB và việc đóng học phí
+### Tạo thêm các đặc trưng giúp phân nhóm dễ theo dõi hơn
 
 ![Phân tích tương quan](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_24.png?raw=true)
+
+### Ta thấy được học lực cao thì tỉ lệ đóng học phí cũng cao
 
 ### 4.6 Chuyển Điểm TB sang GPA
 
@@ -293,6 +296,8 @@ print("3.2 b) Tuổi nhỏ nhất:", tuoi_nho_nhat)
 ### 4.8 Thuật toán máy học
 -Mô hình Random Forest
 ### Dùng thuật toán Random Forest để huấn luyện mô hình phân loại sinh viên đạt học bổng (label)
+### Mô hình mạnh mẽ, dễ hiểu, không cần chuẩn hóa dữ liệu.
+### Có thể cho biết yếu tố nào quan trọng nhất trong quyết định có học bổng.
 
 ![Random Forest](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_15.png?raw=true)
 
