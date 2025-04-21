@@ -234,6 +234,7 @@ print("3.2 b) Tuổi nhỏ nhất:", tuoi_nho_nhat)
 ```
 ### 4.3 Xử lí imblance và Lưu dữ liệu vào database
 -Dữ liệu trước khi cân bằng
+
 ![Trước khi imblance](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_12.png?raw=true)
 
 -Dữ liệu sau khi imblance bằng SMOTE và lưu vào database
@@ -249,6 +250,7 @@ print("3.2 b) Tuổi nhỏ nhất:", tuoi_nho_nhat)
 ![Biểu đồ (tròn) tỉ lệ sinh viên có học bổng](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_3.png?raw=true)
 
 -Vẽ các biểu đồ
+
 ![Biểu đồ (Histogram) phân bố điểm TB](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_4.png?raw=true)
 
 ![Biểu đồ (Barplot) so sánh học bổng theo thành phố](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_5.png?raw=true)
@@ -267,9 +269,11 @@ print("3.2 b) Tuổi nhỏ nhất:", tuoi_nho_nhat)
 
 ### 4.5 Lọc các dữ liệu
 -Lọc cột "Ghi chú" Có học bổng và "Điểm TB" trên 9.0
+
 ![Lọc có học bổng và điểm trên 9.0](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_22.png?raw=true)
 
 -Lọc 4 điều kiện: có học bổng + điểm TB trên 9.0 + ghi chú học tốt hoặc Hoàn thành xuất sắc
+
 ![Lọc 4 điều kiện](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_23.png?raw=true)
 
 ### 4.5 Phân tích tương quan giữa học lực dựa trên Điểm TB và việc đóng học phí
@@ -277,19 +281,24 @@ print("3.2 b) Tuổi nhỏ nhất:", tuoi_nho_nhat)
 ![Phân tích tương quan](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_24.png?raw=true)
 
 ### 4.6 Chuyển Điểm TB sang GPA
+
 ![GPA](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_25.png?raw=true)
 
 ### 4.7 Phân tích sự phân bố Học bổng theo: 0, 1
+
 ![0, 1](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_26.png?raw=true)
 
 ### 4.8 Thuật toán máy học
 -Mô hình Random Forest
+
 ![Random Forest](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_15.png?raw=true)
 
 -Mô hình KNN
+
 ![KNN](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_17.png?raw=true)
 
 -Mô hình SVM
+
 ![SVM](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_27.png?raw=true)
 
 -So sánh 3 thuật toán: Random Forest, KNN, SVM
@@ -301,9 +310,11 @@ print("3.2 b) Tuổi nhỏ nhất:", tuoi_nho_nhat)
 ![SVM](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_20.png?raw=true)
 
 -Phân cụm bằng KMeans
+
 ![Kmeans](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_16.png?raw=true)
 
 -Thuật toán Liner Regression
+
 ![L G](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_21.png?raw=true)
 
 
