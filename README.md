@@ -3,7 +3,7 @@
 ## Cấu trúc folder đồ án
 - `notebook/`: chứa Jupyter Notebook
 - `images/`: chứa hình ảnh biểu đồ
-- `report/`: chứa báo cáo Word/PDF
+- `data/`: chứa file Excel
 - `README.md`: báo cáo chính của nhóm
 
 ## 1. Thành viên nhóm
