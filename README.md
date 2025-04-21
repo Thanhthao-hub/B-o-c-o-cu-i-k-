@@ -1,4 +1,4 @@
-# BÁO CÁO ĐỒ ÁN CUỐI KÌ - KHOA HỌC DỮ LIỆU ỨNG DỤNG
+# BÁO CÁO ĐỒ ÁN CUỐI KÌ 
 
 ## Cấu trúc folder đồ án
 - `notebook/`: chứa Jupyter Notebook
