@@ -78,7 +78,14 @@ sv.to_excel("Danh_sach_sinh_vien.xlsx", index=False)
 print(' Đã tạo file Excel thành công!')
 ```
 ### 4.2 Khám phá dữ liệu
--Với 2400 dòng dữ liệu, thông tin đa dạng nhưng còn thô, chưa sạch, thiếu thông tin
+-Với 2400 dòng dữ liệu và 12 cột
+
+import pandas as pd
+file_label = pd.read_excel(r'C:\Users\Admin\Documents\Zalo Received Files\File_Hoan_Chinh.xlsx')
+print(file_label)
+
+
+
 ### 4.3 Xử lí dữ liệu
 -Đầu tiên ta chuẩn hóa kiểu dữ liệu cho 'Thành phố' và 'Tên' thành kiểu dữ liệu chuỗi.
 ```python
