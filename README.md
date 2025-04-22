@@ -289,11 +289,8 @@ print("3.2 b) Tuổi nhỏ nhất:", tuoi_nho_nhat)
 
 ![GPA](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_25.png?raw=true)
 
-### 4.7 Phân tích sự phân bố Học bổng theo: 0, 1
 
-![0, 1](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_26.png?raw=true)
-
-### 4.8 Thuật toán máy học
+### 4.7 Thuật toán máy học
 -Mô hình Random Forest
 ### Dùng thuật toán Random Forest để huấn luyện mô hình phân loại sinh viên đạt học bổng (label)
 ### Mô hình mạnh mẽ, dễ hiểu, không cần chuẩn hóa dữ liệu.
