@@ -15,7 +15,7 @@
 
 ## 2. Phân công công việc
 - Nhất, Trang: Xử lí và Khám phá dữ liệu
-- Quân : Phân tích thống kê tổng quan
+- Quân : Phân tích thống kê tổng quan và trực quan
 - Thịnh: Vẽ biểu đồ
 - Thảo: Tạo file excel thô, phân tích và máy học
 ## 3. Các bước thực hiện
