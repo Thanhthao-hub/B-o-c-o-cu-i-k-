@@ -80,11 +80,23 @@ print(' Đã tạo file Excel thành công!')
 ### 4.2 Khám phá dữ liệu
 -Với 2400 dòng dữ liệu và 12 cột
 
-import pandas as pd
-file_label = pd.read_excel(r'C:\Users\Admin\Documents\Zalo Received Files\File_Hoan_Chinh.xlsx')
-print(file_label)
+![2400 dòng và 12 cột](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_28.png?raw=true)
 
+![Trước khi imblance](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_29.png?raw=true)
 
+![Trước khi imblance](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_30.png?raw=true)
+
+![Trước khi imblance](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_31.png?raw=true)
+
+![Trước khi imblance](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_32.png?raw=true)
+
+![Trước khi imblance](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_33.png?raw=true)
+
+![Trước khi imblance](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_34.png?raw=true)
+
+![Trước khi imblance](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_35.png?raw=true)
+
+![Trước khi imblance](https://github.com/Thanhthao-hub/B-o-c-o-cu-i-k-/blob/main/images/Screenshot_36.png?raw=true)
 
 ### 4.3 Xử lí dữ liệu
 -Đầu tiên ta chuẩn hóa kiểu dữ liệu cho 'Thành phố' và 'Tên' thành kiểu dữ liệu chuỗi.
